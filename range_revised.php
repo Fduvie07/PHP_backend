@@ -9,7 +9,8 @@
     $step = 3;
 
     $rangeOfNumbers = range($start, $end, $step);
-    echo 'The range of number in the array is : '. $rangeOfNumbers;
+    echo 'The range of number in the array is : ';
+    print_r($rangeOfNumbers);
 
 ?>
 
